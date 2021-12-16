@@ -1,14 +1,15 @@
 # This file may be used to create an environment using:
 # $ conda create --name <env> --file <this file>
 # platform: win-64
+_py-xgboost-mutex=2.0=cpu_0
 backcall=0.2.0=pyh9f0ad1d_0
 backports=1.0=py_2
 backports.functools_lru_cache=1.6.4=pyhd8ed1ab_0
 blas=1.0=mkl
 bottleneck=1.3.2=py39h7cc1a96_1
 brotli=1.0.9=ha925a31_2
-ca-certificates=2021.10.26=haa95532_2
-certifi=2021.10.8=py39haa95532_0
+ca-certificates=2021.10.8=h5b45459_0
+certifi=2021.10.8=py39hcbf5309_1
 colorama=0.4.4=pyh9f0ad1d_0
 cycler=0.11.0=pyhd3eb1b0_0
 debugpy=1.5.1=py39h415ef7b_0
@@ -31,6 +32,7 @@ libpng=1.6.37=h2a8f88b_0
 libsodium=1.0.18=h8d14728_1
 libtiff=4.2.0=hd0e1b90_0
 libwebp=1.2.0=h2bbff1b_0
+libxgboost=1.5.0=h0e60522_1
 lz4-c=1.9.3=h2bbff1b_1
 matplotlib=3.5.0=py39haa95532_0
 matplotlib-base=3.5.0=py39h6214cd6_0
@@ -45,7 +47,7 @@ numexpr=2.7.3=py39hb80d3ca_1
 numpy=1.21.2=py39hfca59bb_0
 numpy-base=1.21.2=py39h0829f74_0
 olefile=0.46=pyhd3eb1b0_0
-openssl=1.1.1l=h2bbff1b_0
+openssl=1.1.1l=h8ffe710_0
 packaging=21.3=pyhd3eb1b0_0
 pandas=1.3.4=py39h6214cd6_0
 parso=0.8.3=pyhd8ed1ab_0
@@ -53,6 +55,7 @@ pickleshare=0.7.5=py_1003
 pillow=8.4.0=py39hd45dc43_0
 pip=21.2.4=py39haa95532_0
 prompt-toolkit=3.0.24=pyha770c72_0
+py-xgboost=1.5.0=py39hcbf5309_1
 pygments=2.10.0=pyhd8ed1ab_0
 pyparsing=3.0.4=pyhd3eb1b0_0
 pyqt=5.9.2=py39hd77b12b_6
@@ -80,6 +83,7 @@ vs2015_runtime=14.27.29016=h5e58377_2
 wcwidth=0.2.5=pyh9f0ad1d_2
 wheel=0.37.0=pyhd3eb1b0_1
 wincertstore=0.2=py39haa95532_2
+xgboost=1.5.0=py39hcbf5309_1
 xz=5.2.5=h62dcd97_0
 zeromq=4.3.4=h0e60522_1
 zlib=1.2.11=h62dcd97_4
